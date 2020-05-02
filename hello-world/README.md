@@ -50,3 +50,7 @@ Add Data Source ที่เป็น Prometheus
 ```sh
 $ docker run -d --name=node-exporter -p 9100:9100 prom/node-exporter:latest 
 ```
+
+# Example 
+
+<img src="./grafana.png" width="700">
