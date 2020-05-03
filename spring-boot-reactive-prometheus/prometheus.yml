@@ -1,0 +1,16 @@
+# section 1
+global: 
+  scrape_interval: 5s
+  external_labels:
+    monitor: 'node-monitor'  
+  
+# section 2  
+scrape_configs: 
+  - job_name: prometheus
+    static_configs: 
+      - targets: ["localhost:9090"]
+      
+  - job_name: spring-boot-reactive-prometheus
+    static_configs:
+      metrics_path : "/actuator/prometheus" 
+      - targets: ["10.130.128.175:8080", "10.130.128.242:8080"]
