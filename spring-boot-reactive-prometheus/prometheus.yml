@@ -11,6 +11,6 @@ scrape_configs:
       - targets: ["localhost:9090"]
       
   - job_name: spring-boot-reactive-prometheus
+    metrics_path : "/actuator/prometheus" 
     static_configs:
-      metrics_path : "/actuator/prometheus" 
       - targets: ["10.130.128.175:8080", "10.130.128.242:8080"]
