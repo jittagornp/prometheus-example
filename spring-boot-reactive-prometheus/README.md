@@ -1,8 +1,8 @@
 # Spring-boot Reactive Prometheus
 
 ทำการติดตั้งทุกอย่างเหมือนกับตัวอย่าง `simple-node-exporter` ที่ผ่านมา เพียงแต่   
-1. ตอน run prometheus ให้ใช้ `prometheus.yml` ในตัวอย่าง `spring-boot-reactive-prometheus` แทน 
-2. แต่ละ target nodes ให้ทำการ run spring-boot application เพิ่มเติมเข้าไปด้วย 
+1. ตอน run Prometheus ให้ใช้ `prometheus.yml` ในตัวอย่าง `spring-boot-reactive-prometheus` แทน (อย่าลืมแก้ IP)
+2. แต่ละ Target Nodes ให้ทำการ run Spring-boot Application เพิ่มเติมเข้าไป 
 
 # การ Run Spring-boot Application บน Target Nodes
 

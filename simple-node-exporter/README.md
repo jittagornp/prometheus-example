@@ -46,7 +46,7 @@ $ docker run -d --name=prometheus-server -v $(pwd)/prometheus.yml:/etc/prometheu
 $ docker run -d --name=grafana -p 3000:3000 -e "GF_SECURITY_ADMIN_PASSWORD=password"  grafana/grafana 
 ```
 
-ดูเปิด Grafana ดู (username = admin, password = password ตามที่กำหนดไว้ตอน run docker)  
+ลองเปิด Grafana ดู (username = admin, password = password ตามที่กำหนดไว้ตอน run docker)  
 
 > http://<HOST_NAME or IP>:3000 
 
