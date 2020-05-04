@@ -1,6 +1,16 @@
 # Spring-boot Reactive Prometheus
 
-TODO
+ทำการติดตั้งทุกอย่างเหมือนกับตัวอย่าง `simple-node-exporter` ที่ผ่านมา เพียงแต่   
+1. ตอน run prometheus ให้ใช้ `prometheus.yml` ในตัวอย่าง `spring-boot-reactive-prometheus` แทน 
+2. แต่ละ target nodes ให้ทำการ run spring-boot application เพิ่มเติมเข้าไปด้วย 
+
+# การ Run Spring-boot Application บน Target Nodes
+
+```sh
+$ cd spring-boot-reactive-prometheus
+$ chmod 777 deploy.sh
+$ ./deploy.sh
+```
 
 # Simple PromQL
 
