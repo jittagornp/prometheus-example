@@ -2,7 +2,7 @@
 
 <img src="./prometheus.png" width="700"/>
 
-# Requires
+# Prerequisites
 
 - 1 Prometheus Server
 - 2 Target Nodes 
