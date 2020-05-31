@@ -2,7 +2,7 @@
 
 > ตัวอย่าง Prometheus + Grafana
 
-# Requires
+# Prerequisites
 
 - ใช้ Ubuntu 18.04 LTS
 
